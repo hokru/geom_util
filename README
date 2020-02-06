@@ -1,0 +1,4 @@
+Fortran utility for plane-plane and ring centroid calculations.
+Uses LGPL code from John Burkardt and few subroutines written by Stefan Grimme.
+
+Usage printed at program start.

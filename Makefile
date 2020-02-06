@@ -1,5 +1,5 @@
 # program name
-PROG    = ./Geometry
+PROG    = ./geom_util
 
 
 # compiler options
@@ -17,7 +17,6 @@ LINKER  = $(FC)
  string.f90\
  tools.f90\
  ebe.f
-# geometry_prb.f90
 
 SOURCE77=
 OF90=$(SOURCES:.f90=.o)

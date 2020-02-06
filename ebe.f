@@ -1,3 +1,21 @@
+!    This file is part of geom_util.
+!
+!    geom_util is free software: you can redistribute it and/or modify
+!    it under the terms of the GNU Lesser General Public License as published by
+!    the Free Software Foundation, either version 3 of the License, or
+!    (at your option) any later version.
+!
+!    geom_util is distributed in the hope that it will be useful,
+!    but WITHOUT ANY WARRANTY; without even the implied warranty of
+!    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+!    GNU Lesser General Public License for more details.
+!
+!    You should have received a copy of the GNU Lesser General Public License
+!    along with geom_util.  If not, see <https://www.gnu.org/licenses/>.
+!
+! Copyright (C) 2019 - 2020 Holger Kruse, Institute of Biophysics of the CAS, Czechia
+! Copyright (C) Stefan Grimme, date unknow.
+
 
 ccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc
 c determinant of 3x3 matrix                                           c

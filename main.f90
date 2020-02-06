@@ -1,4 +1,20 @@
-program test_centroid3d
+!
+!    geom_util is free software: you can redistribute it and/or modify
+!    it under the terms of the GNU Lesser General Public License as published by
+!    the Free Software Foundation, either version 3 of the License, or
+!    (at your option) any later version.
+!
+!    geom_util is distributed in the hope that it will be useful,
+!    but WITHOUT ANY WARRANTY; without even the implied warranty of
+!    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+!    GNU Lesser General Public License for more details.
+!
+!    You should have received a copy of the GNU Lesser General Public License
+!    along with geom_util.  If not, see <https://www.gnu.org/licenses/>.
+!
+! Copyright (C) 2019 - 2020 Holger Kruse, Institute of Biophysics of the CAS, Czechia
+
+program geom_util
   implicit none
 
 integer ( kind = 4 ), parameter :: dim_num = 3
@@ -17,9 +33,9 @@ real(8), allocatable :: coord1(:,:), coord2(:,:)
 integer n ! polygon size
 
 print*,''
-print*,'x-----------------------x'
-print*,'x        GEOMETRY       x'
-print*,'x-----------------------x'
+print*,'x-------------------------x'
+print*,'x       geom_util         x'
+print*,'x-------------------------x'
 print*,''
 print*,'version: 0.4b'
 print*,''
